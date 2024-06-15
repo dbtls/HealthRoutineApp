@@ -10,6 +10,7 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.team6.routineapp.dto.UserDTO
+import com.team6.routineapp.fitness.UserInfo
 import com.team6.routineapp.service.RetrofitClient
 import retrofit2.Call
 import retrofit2.Callback
@@ -188,8 +189,6 @@ class SettingActivity : AppCompatActivity() {
                 upperbodyRM = upperbodyRMEditText.text.toString().toInt()
                 lowerbodyRM = lowerbodyRMEditText.text.toString().toInt()
 
-                Log.d("Test", upperbodyRM.toString())
-
                 userDTO.height = height
                 userDTO.weight = weight
                 userDTO.muscleMass = muscleMass
@@ -210,10 +209,6 @@ class SettingActivity : AppCompatActivity() {
                             shapeValueTextView.text = userDTO.shape.toString()
                             upperbodyRMValueTextView.text = userDTO.rm_bench.toString()
                             lowerbodyRMValueTextView.text = userDTO.rm_squat.toString()
-
-                            Log.d("Test", userDTO.rm_bench.toString())
-                            Log.d("Test", userDTO.height.toString())
-                            Log.d("Test", userDTO.shape.toString())
                             inputPhysicalInformationDialog.dismiss()
                         }
                     }

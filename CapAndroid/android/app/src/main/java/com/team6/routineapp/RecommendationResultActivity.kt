@@ -2,14 +2,18 @@ package com.team6.routineapp
 
 import android.app.Dialog
 import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.View
+import android.view.Window
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.team6.routineapp.dto.RoutineDTO
@@ -34,15 +38,24 @@ class RecommendationResultActivity : AppCompatActivity() {
         setContentView(R.layout.activity_recommendation_result)
         activityStack.push(this)
 
+        val loadingDialog = Dialog(this)
+        loadingDialog.getWindow()?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT));
+        loadingDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        loadingDialog.setContentView(R.layout.dialog_loading);
+
         val inputRoutineNameDialog = generateInputRoutineNameDialog()
+        val textView: TextView = findViewById(R.id.activity_recommendation_result_textview)
         val notNeededButton = findViewById<Button>(R.id.activity_recommendation_result_button_not_needed)
         val addToMyRoutineButton = findViewById<Button>(R.id.activity_recommendation_result_button_add_to_my_routine)
 
         intentToRoutineActivity = Intent(this, RoutineActivity::class.java)
 
+        loadingDialog.show()
+
         getRecommendationFromAI { routine ->
             if (routine != null) {
-
+               loadingDialog.dismiss()
+                textView.text = String.format("%s님께 \n적합한 루틴을 찾았습니다!", userDTO.userId)
 
                 notNeededButton.setOnClickListener {
                     activityStack.pop().finish()
@@ -56,7 +69,6 @@ class RecommendationResultActivity : AppCompatActivity() {
                 addToMyRoutineButton.setOnClickListener {
                     inputRoutineNameDialog.show()
                 }
-
                 generateTrainingsView(routine.trainings)
             } else {
                 //예외 처리?
@@ -139,6 +151,7 @@ class RecommendationResultActivity : AppCompatActivity() {
 
     private fun generateInputRoutineNameDialog(): Dialog {
         val inputRoutineNameDialog = Dialog(this)
+        inputRoutineNameDialog.setContentView(R.layout.dialog_input_routine_name)
         val inputRoutineNameDialogEditText: EditText =
             inputRoutineNameDialog.findViewById(R.id.dialog_input_routine_name_edittext)
         val inputRoutineNameDialogButton: Button =
@@ -146,19 +159,25 @@ class RecommendationResultActivity : AppCompatActivity() {
         inputRoutineNameDialogButton.setOnClickListener {
             RetrofitClient.routineService.saveRoutine(
                 RoutineDTO(
-                    null, userDTO.userId, inputRoutineNameDialogEditText.text.toString(), routineDTO.routineDetails
+                    userDTO.userId, inputRoutineNameDialogEditText.text.toString(), routineDTO.routineDetails
                 )
             ).enqueue(object : Callback<Void> {
                 override fun onResponse(call: Call<Void>, response: Response<Void>) {
-                    activityStack.pop().finish()
-                    activityStack.pop().finish()
-                    activityStack.pop().finish()
-                    activityStack.pop().finish()
-                    activityStack.pop().finish()
-                    startActivity(intentToRoutineActivity)
+                    if (response.isSuccessful) {
+                        activityStack.pop().finish()
+                        activityStack.pop().finish()
+                        activityStack.pop().finish()
+                        activityStack.pop().finish()
+                        activityStack.pop().finish()
+
+                        startActivity(intentToRoutineActivity)
+                    }
+
+                    else Toast.makeText(this@RecommendationResultActivity, "루틴 생성에 실패했습니다.", Toast.LENGTH_SHORT).show()
                 }
 
                 override fun onFailure(call: Call<Void>, t: Throwable) {
+                    Toast.makeText(this@RecommendationResultActivity, "루틴 생성에 실패했습니다.", Toast.LENGTH_SHORT).show()
                 }
             })
         }
