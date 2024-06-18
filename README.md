@@ -11,6 +11,9 @@
 
 
 ## 주요 기능
+
+### 회원가입 / 나만의 루틴 생성
+
 <table border="1" width="100%">
   <tr>
     <th width="50%">회원가입/로그인</th>
@@ -26,6 +29,8 @@
   </tr>
 </table>
 
+### 루틴 정보 / AI 루틴 추천
+
 <table border="1" width="100%">
   <tr>
     <th width="50%">루틴 정보</th>
@@ -40,6 +45,8 @@
     <td align="center" valign="middle">운동을 원하는 부위, 운동 목적, 운동 장소를 선택하면 기존의 사용자 정보를 바탕으로 목적에 부합하는 운동 루틴을 추천.</td>
   </tr>
 </table>
+
+### 신체정보 변경 / 루틴 검색
 
 <table border="1" width="100%">
   <tr>
