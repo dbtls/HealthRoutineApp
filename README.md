@@ -20,9 +20,9 @@
     <td><img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/b29fe4cd-d24e-4f56-ae9b-18f317bc2dbd" alt="루틴 정보" width="300"></td>
   </tr>
   <tr>
-    <td>회원가입.</td>
-    <td>나만의 루틴생성.</td>
-    <td>루틴 정보.</td>
+    <td>아이디와 비밀번호를 기반으로하는 간단한 회원가입 기능. 또한 기본적인 신체상황을 받아서 보다 정확한 추천 루틴을 제공.</td>
+    <td>사용자가 원하는 운동루틴을 직접 설정하는 기능.</td>
+    <td>만들어진 루틴의 정보를 볼 수 있고, 운동을 클릭하면 운동 방법과 예시 영상을 제공.</td>
   </tr>
 </table>
 
@@ -39,8 +39,8 @@
     <td><img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/1f21fd2b-d5bb-40d0-ad3d-6796960b780d" alt="루틴 검색" width="300"></td>
   </tr>
   <tr>
-    <td>AI 루틴 추천.</td>
-    <td>신처젱보 변경.</td>
-    <td>루틴 검색.</td>
+    <td>운동을 원하는 부위, 운동 목적, 운동 장소를 선택하면 기존의 사용자 정보를 바탕으로 목적에 부합하는 운동 루틴을 추천.</td>
+    <td>기존에 입력한 신체정보에 변화가 생겼다면, 신체정보를 세세하게 변경 가능.</td>
+    <td>만들어진 루틴을 모아볼 수 있고, 특정 루틴을 검색할수 있음.</td>
   </tr>
 </table>
