@@ -24,7 +24,7 @@
 - Git
 <br><br>
 ### 내 역할
-- Spring 백엔드 API 구축
+- Spring REST API 구축
 - DB 설계 및 개발
 - Spring-DB 연동(JPA)
 - Spring-Android Studio 연동(Retrofit)
