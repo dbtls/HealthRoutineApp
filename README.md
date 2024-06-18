@@ -27,11 +27,6 @@
   <img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/e30292d6-c24e-451b-a0a7-8786638b08c4">
 </p>
 
-### 튜닝 기록
-<p align="center">
-  <img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/0819f2e0-4aa5-4be9-a1a3-5f3f5388aeb4">
-</p>
-
 ## 주요 기능
 
 ### 회원가입 / 나만의 루틴 생성
