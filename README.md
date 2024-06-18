@@ -58,7 +58,7 @@
     <td align="center" valign="middle"><img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/8c48110b-d42d-4a49-bd44-f52e27f798d0" alt="AI 루틴 추천" width="200"></td>
   </tr>
   <tr>
-    <td align="center" valign="middle">만들어진 루틴의 정보를 볼 수 있고, 운동을 클릭하면 운동 방법과 예시 영상을 제공.</td>
+    <td align="center" valign="middle">만들어진 루틴 정보 출력, 운동을 클릭하면 운동 방법과 예시 영상을 제공.</td>
     <td align="center" valign="middle">운동을 원하는 부위, 운동 목적, 운동 장소를 선택하면 기존의 사용자 정보를 바탕으로 목적에 부합하는 운동 루틴을 추천.</td>
   </tr>
 </table>
@@ -76,6 +76,6 @@
   </tr>
   <tr>
     <td align="center" valign="middle">기존에 입력한 신체정보에 변화가 생겼다면, 신체정보를 세세하게 변경 가능.</td>
-    <td align="center" valign="middle">만들어진 루틴을 모아볼 수 있고, 특정 루틴을 검색할수 있음.</td>
+    <td align="center" valign="middle">루틴 목록 출력 및 특정 루틴 검색 기능.</td>
   </tr>
 </table>
