@@ -16,13 +16,12 @@
 - 오승민
 - 조단
 - 한수정
-- 
 ## 사용 기술
 - Andriod Studio
 - Spring Boot
 - Spring JPA
 - Mysql
-<br>
+<br></br>
 ### 내 역할
 - Spring 백엔드 API 구축
 - DB 설계 및 개발
