@@ -1,5 +1,8 @@
 # AI 운동루틴 추천 앱 Seven T
-https://github.com/dbtls/HealthRoutineApp/assets/29426412/ab48e27b-505b-4444-90cb-b389325da192
+<p align="center">
+  <img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/ab48e27b-505b-4444-90cb-b389325da192">
+</p>
+
 
 ## 소개
 - 개인의 체성분, 환경, 신체 상황 등을 기반으로 맞춤형 운동 루틴을 추천해 주는 애플리케이션
