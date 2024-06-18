@@ -3,7 +3,6 @@
   <img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/ab48e27b-505b-4444-90cb-b389325da192">
 </p>
 
-
 ## 소개
 - 개인의 체성분, 환경, 신체 상황 등을 기반으로 맞춤형 운동 루틴을 추천해 주는 애플리케이션
 - 텍스트 입력 형식의 LLM을 GUI의 형태로 바꿔 보다 직관적이고 쉽게 운동 설정 가능
@@ -21,7 +20,9 @@
 - Spring Boot
 - Spring JPA
 - Mysql
-<br/>
+- Figma
+- Git
+<br><br>
 ### 내 역할
 - Spring 백엔드 API 구축
 - DB 설계 및 개발
