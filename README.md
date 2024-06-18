@@ -41,7 +41,7 @@
     <td align="center" valign="middle"><img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/d6719ad3-93de-41dc-af18-e50e21c156ff" alt="나만의 루틴생성" width="200"></td>
   </tr>
   <tr>
-    <td align="center" valign="middle">아이디와 비밀번호를 기반으로하는 간단한 회원가입 기능.<br> 기본적인 신체상황을 받아서 보다 정확한 추천 루틴을 제공.</td>
+    <td align="center" valign="middle">아이디와 비밀번호를 기반으로하는 간단한 회원가입 기능. 기본적인 신체상황을 받아서 보다 정확한 추천 루틴을 제공.</td>
     <td align="center" valign="middle">사용자가 원하는 운동루틴을 직접 설정하는 기능.</td>
   </tr>
 </table>
