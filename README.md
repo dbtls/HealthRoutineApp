@@ -17,8 +17,8 @@
     <th>나만의 루틴 생성</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/a21d05c2-2602-4827-ba8b-acc607a75251" alt="회원가입" width="300"></td>
-    <td><img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/d6719ad3-93de-41dc-af18-e50e21c156ff" alt="나만의 루틴생성" width="300"></td>
+    <td><img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/a21d05c2-2602-4827-ba8b-acc607a75251" alt="회원가입" width="200"></td>
+    <td><img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/d6719ad3-93de-41dc-af18-e50e21c156ff" alt="나만의 루틴생성" width="200"></td>
   </tr>
   <tr>
     <td>아이디와 비밀번호를 기반으로하는 간단한 회원가입 기능. 또한 기본적인 신체상황을 받아서 보다 정확한 추천 루틴을 제공.</td>
@@ -33,8 +33,8 @@
 
   </tr>
   <tr>
-      <td><img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/b29fe4cd-d24e-4f56-ae9b-18f317bc2dbd" alt="루틴 정보" width="300"></td>
-      <td><img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/8c48110b-d42d-4a49-bd44-f52e27f798d0" alt="AI 루틴 추천" width="300"></td>
+      <td><img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/b29fe4cd-d24e-4f56-ae9b-18f317bc2dbd" alt="루틴 정보" width="200"></td>
+      <td><img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/8c48110b-d42d-4a49-bd44-f52e27f798d0" alt="AI 루틴 추천" width="200"></td>
 
   </tr>
   <tr>
@@ -51,8 +51,8 @@
     <th>루틴 검색</th>
   </tr>
   <tr>
-    <td><img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/7980181e-d87d-467f-b5e6-a79d3a6eede4" alt="신체정보 변경" width="300"></td>
-    <td><img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/1f21fd2b-d5bb-40d0-ad3d-6796960b780d" alt="루틴 검색" width="300"></td>
+    <td><img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/7980181e-d87d-467f-b5e6-a79d3a6eede4" alt="신체정보 변경" width="200"></td>
+    <td><img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/1f21fd2b-d5bb-40d0-ad3d-6796960b780d" alt="루틴 검색" width="200"></td>
   </tr>
   <tr>
     <td>기존에 입력한 신체정보에 변화가 생겼다면, 신체정보를 세세하게 변경 가능.</td>
