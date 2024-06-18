@@ -8,11 +8,28 @@
 - 개인의 체성분, 환경, 신체 상황 등을 기반으로 맞춤형 운동 루틴을 추천해 주는 애플리케이션
 - 텍스트 입력 형식의 챗봇을 GUI의 형태로 바꿔 보다 직관적이고 쉽게 운동 설정 가능
 
-## 사용 스택
+## 사용한 기술
 - Andriod Studio
 - Spring Boot
 - Spring JPA
 - Mysql
+
+## 사용 LLM
+
+### Naver Clova Studio
+- 대형 언어 모델 LLM을 활용하여 맞춤형 운동 루틴을 제공하기 위해 NAVER의 CLOVA Studio를 선택
+- CLOVA Studio의 HyperCLOVA 언어 모델을 사용하여, 사용자의 신체 정보와 환경 데이터를 기반으로 적합한 운동을 추천하도록 프롬프트 튜닝을 진행
+- 튜닝 과정에서 인바디 유형, 선호 부위, 1RM 무게, 운동 목표, 운동 환경 등의 입력값을 설정하고, 운동 이름, 중량, 횟수, 세트 등의 출력값을 정의함.
+- 텍스트와 컴플리션 필드로 구성된 100여개의 데이터셋을 제작해 튜닝을 진행
+
+
+<p align="center">
+  <img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/e30292d6-c24e-451b-a0a7-8786638b08c4">
+</p>
+
+<p align="center">
+  <img src="https://github.com/dbtls/HealthRoutineApp/assets/29426412/0819f2e0-4aa5-4be9-a1a3-5f3f5388aeb4">
+</p>
 
 ## 주요 기능
 
