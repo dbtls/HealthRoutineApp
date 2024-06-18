@@ -14,7 +14,7 @@
 - Spring JPA
 - Mysql
 
-## 사용 LLM
+## LLM
 
 ### Naver Clova Studio
 - 대형 언어 모델 LLM을 활용하여 맞춤형 운동 루틴을 제공하기 위해 NAVER의 CLOVA Studio를 선택
