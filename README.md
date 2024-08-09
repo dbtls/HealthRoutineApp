@@ -7,14 +7,6 @@
 - 개인의 체성분, 환경, 신체 상황 등을 기반으로 맞춤형 운동 루틴을 추천해 주는 애플리케이션
 - 텍스트 입력 형식의 LLM을 GUI의 형태로 바꿔 보다 직관적이고 쉽게 운동 설정 가능
 
-## 팀원
-- 김나현
-- 김성환
-- 김유신
-- 김종수
-- 오승민
-- 조단
-- 한수정
 ## 사용 기술
 - Andriod Studio
 - Spring Boot
@@ -23,12 +15,6 @@
 - Figma
 - Git
 <br><br>
-### 내 역할
-- Spring REST API 구축
-- DB 설계 및 개발
-- Spring-DB 연동(JPA)
-- Spring-Android Studio 연동(Retrofit)
-- Clova Studio API 연동
 
 ## LLM
 
